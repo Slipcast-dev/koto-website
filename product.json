@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0-alpha.14",
+  "platform": "macOS 26+",
+  "copyright_year": 2026,
+  "verified_on": "2026-10-28",
+  "site_url": "https://slipcast-dev.github.io/koto-website/",
+  "links": {
+    "features": "https://github.com/Slipcast-dev/translator-Koto#возможности",
+    "installation": "https://github.com/Slipcast-dev/translator-Koto/blob/main/Docs/INSTALLATION.md",
+    "models": "https://github.com/Slipcast-dev/translator-Koto/blob/main/Docs/MODELS.md",
+    "privacy": "https://github.com/Slipcast-dev/translator-Koto/blob/main/Docs/PRIVACY.md",
+    "documentation": "https://github.com/Slipcast-dev/translator-Koto/blob/main/README.md",
+    "license": "https://github.com/Slipcast-dev/translator-Koto/blob/main/LICENSE",
+    "releases": "https://github.com/Slipcast-dev/translator-Koto/releases",
+    "repository": "https://github.com/Slipcast-dev/translator-Koto"
+  }
+}

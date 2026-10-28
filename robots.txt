@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://slipcast-dev.github.io/koto-website/sitemap.xml
