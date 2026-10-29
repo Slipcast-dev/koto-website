@@ -1,5 +1,24 @@
 [Русский](README.md) | [**English**](README.en.md)
 
+<p align="center">
+  <a href="https://slipcast-dev.github.io/koto-website/en/?lang=en"><img src="docs/assets/repository-banner.en.svg" alt="Koto — bilingual app website: RU and EN, HTML/CSS/JavaScript, GitHub Pages, MIT" width="100%"></a>
+</p>
+
+<p align="center">
+  <a href="https://slipcast-dev.github.io/koto-website/en/?lang=en"><img alt="Open website" src="https://img.shields.io/badge/Website-GitHub_Pages-c7660e?style=flat-square&amp;logo=github"></a>
+  <a href="#languages"><img alt="Languages: Russian and English" src="https://img.shields.io/badge/Languages-RU_%2B_EN-80582f?style=flat-square"></a>
+  <a href="#architecture"><img alt="HTML / CSS / JavaScript" src="https://img.shields.io/badge/Stack-HTML_%2F_CSS_%2F_JS-80582f?style=flat-square"></a>
+  <a href="#build-and-checks"><img alt="Python 3.10+" src="https://img.shields.io/badge/Python-3.10%2B-80582f?style=flat-square&amp;logo=python&amp;logoColor=white"></a>
+  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-80582f?style=flat-square"></a>
+</p>
+
+<p align="center">
+  <a href="https://slipcast-dev.github.io/koto-website/?lang=ru">Website in Russian</a> ·
+  <a href="https://slipcast-dev.github.io/koto-website/en/?lang=en">Website in English</a> ·
+  <a href="https://github.com/Slipcast-dev/koto-website/actions">Deployment status</a> ·
+  <a href="VERIFICATION.en.md">Verification</a>
+</p>
+
 # Koto — app website
 
 A responsive Russian and English website for the native Koto translator by **Slipcast-Dev**.
@@ -44,6 +63,7 @@ The translator interface is a fixed preview. Apple Translation, Qwen, OCR and sh
 | `robots.txt`, `sitemap.xml` | Indexing for both pages |
 | `screenshots/` | Historical screenshots of the previous Russian site; see its README |
 | `VERIFICATION.md`, `VERIFICATION.en.md` | Current verification reports |
+| `docs/assets/repository-banner.ru.svg`, `docs/assets/repository-banner.en.svg` | Informational README banners |
 | `LICENSE` | MIT, © 2026 Slipcast-Dev |
 
 ## Build and checks

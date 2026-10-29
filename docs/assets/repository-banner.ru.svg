@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Сайт приложения Koto</title>
+  <desc id="desc">Двуязычный статический сайт на HTML, CSS и JavaScript. GitHub Pages, лицензия MIT.</desc>
+  <rect x="1" y="1" width="1198" height="358" rx="26" fill="#faf8f4" stroke="#e7e4dd" stroke-width="2"/>
+  <rect x="40" y="40" width="6" height="52" rx="3" fill="#c7660e"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif">
+    <text x="62" y="61" font-size="15" font-weight="600" letter-spacing="3" fill="#777870">SLIPCAST-DEV</text>
+    <text x="62" y="88" font-size="15" fill="#8d633c">KOTO · WEBSITE</text>
+    <text x="48" y="165" font-size="52" font-weight="650" letter-spacing="-1.6" fill="#24251f">Сайт приложения Koto</text>
+    <text x="50" y="210" font-size="21" fill="#66685f">Нативный переводчик для Mac — на русском и английском.</text>
+    <rect x="48" y="260" width="150" height="46" rx="12" fill="#c7660e"/>
+    <text x="123" y="289" text-anchor="middle" font-size="16" font-weight="600" fill="#ffffff">RU + EN</text>
+    <rect x="212" y="260" width="198" height="46" rx="12" fill="#f4eadd" stroke="#eadbca"/>
+    <text x="311" y="289" text-anchor="middle" font-size="16" fill="#80582f">HTML · CSS · JS</text>
+    <rect x="424" y="260" width="190" height="46" rx="12" fill="#f4eadd" stroke="#eadbca"/>
+    <text x="519" y="289" text-anchor="middle" font-size="16" fill="#80582f">GitHub Pages</text>
+    <rect x="628" y="260" width="88" height="46" rx="12" fill="#f4eadd" stroke="#eadbca"/>
+    <text x="672" y="289" text-anchor="middle" font-size="16" fill="#80582f">MIT</text>
+  </g>
+  <g fill="none" stroke="#c7660e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="886" y="82" width="248" height="196" rx="18" fill="#fffdf9" stroke="#eadbca"/>
+    <path d="M886 119h248" stroke="#eadbca"/>
+    <circle cx="908" cy="101" r="3" fill="#c7660e" stroke="none"/>
+    <circle cx="922" cy="101" r="3" fill="#d8c3a9" stroke="none"/>
+    <circle cx="936" cy="101" r="3" fill="#e7e4dd" stroke="none"/>
+    <circle cx="1010" cy="197" r="53"/>
+    <ellipse cx="1010" cy="197" rx="23" ry="53"/>
+    <path d="M957 197h106M967 168h86M967 226h86"/>
+  </g>
+</svg>

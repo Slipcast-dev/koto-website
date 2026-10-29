@@ -1,5 +1,24 @@
 [**Русский**](README.md) | [English](README.en.md)
 
+<p align="center">
+  <a href="https://slipcast-dev.github.io/koto-website/?lang=ru"><img src="docs/assets/repository-banner.ru.svg" alt="Koto — двуязычный сайт приложения: RU и EN, HTML/CSS/JavaScript, GitHub Pages, MIT" width="100%"></a>
+</p>
+
+<p align="center">
+  <a href="https://slipcast-dev.github.io/koto-website/?lang=ru"><img alt="Открыть сайт" src="https://img.shields.io/badge/%D0%A1%D0%B0%D0%B9%D1%82-GitHub_Pages-c7660e?style=flat-square&amp;logo=github"></a>
+  <a href="#языки"><img alt="Языки: русский и английский" src="https://img.shields.io/badge/%D0%AF%D0%B7%D1%8B%D0%BA%D0%B8-RU_%2B_EN-80582f?style=flat-square"></a>
+  <a href="#архитектура"><img alt="HTML / CSS / JavaScript" src="https://img.shields.io/badge/Stack-HTML_%2F_CSS_%2F_JS-80582f?style=flat-square"></a>
+  <a href="#сборка-и-проверка"><img alt="Python 3.10+" src="https://img.shields.io/badge/Python-3.10%2B-80582f?style=flat-square&amp;logo=python&amp;logoColor=white"></a>
+  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-80582f?style=flat-square"></a>
+</p>
+
+<p align="center">
+  <a href="https://slipcast-dev.github.io/koto-website/?lang=ru">Сайт на русском</a> ·
+  <a href="https://slipcast-dev.github.io/koto-website/en/?lang=en">Website in English</a> ·
+  <a href="https://github.com/Slipcast-dev/koto-website/actions">Статус публикации</a> ·
+  <a href="VERIFICATION.md">Проверки</a>
+</p>
+
 # Koto — сайт приложения
 
 Адаптивный сайт нативного переводчика Koto от **Slipcast-Dev** на русском и английском языках.
@@ -44,6 +63,7 @@
 | `robots.txt`, `sitemap.xml` | Индексация обеих страниц |
 | `screenshots/` | Исторические снимки прежней русской версии; см. README внутри |
 | `VERIFICATION.md`, `VERIFICATION.en.md` | Актуальный отчёт о проверках |
+| `docs/assets/repository-banner.ru.svg`, `docs/assets/repository-banner.en.svg` | Информационные баннеры README |
 | `LICENSE` | MIT, © 2026 Slipcast-Dev |
 
 ## Сборка и проверка
