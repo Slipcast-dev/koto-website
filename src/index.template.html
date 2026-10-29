@@ -1,54 +1,58 @@
 <!doctype html>
-<html lang="ru">
+<html lang="{{language}}">
 <head>
   <meta charset="utf-8">
-  <link rel="icon" href="assets/koto-brandmark.png" type="image/png">
+  <script src="{{asset_prefix}}assets/language.js"></script>
+  <link rel="icon" href="{{asset_prefix}}assets/koto-brandmark.png" type="image/png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Koto — нативный переводчик для macOS</title>
+  <title>{{t.title}}</title>
   <meta name="color-scheme" content="light">
   <meta name="theme-color" content="#faf8f4">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Koto — переводите, оставайтесь в потоке">
-  <meta property="og:description" content="Текст, выделение и область экрана — в одном нативном приложении для Mac.">
-  <meta property="og:url" content="{{site_url}}">
+  <meta property="og:title" content="{{t.og_title}}">
+  <meta property="og:description" content="{{t.og_description}}">
+  <meta property="og:url" content="{{page_url}}">
   <meta property="og:image" content="{{site_url}}assets/koto-brandmark.png">
-  <link rel="canonical" href="{{site_url}}">
-  <meta name="description" content="Koto от Slipcast-Dev: перевод текста, выделения и области экрана на Mac. Apple Translation, опциональная Qwen и расширение Chrome. Скачать alpha для Apple Silicon.">
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="canonical" href="{{page_url}}">
+  <link rel="alternate" hreflang="ru" href="{{site_url}}">
+  <link rel="alternate" hreflang="en" href="{{site_url}}en/">
+  <link rel="alternate" hreflang="x-default" href="{{site_url}}">
+  <meta name="description" content="{{t.description}}">
+  <link rel="stylesheet" href="{{asset_prefix}}assets/styles.css">
 </head>
 <body id="top">
-  <a class="skip-link" href="#content">Перейти к содержимому</a>
+  <a class="skip-link" href="#content">{{t.skip}}</a>
   <!-- Статический дизайн: демонстрация не отправляет пользовательские данные. -->
   <header>
-    <a class="brand" href="#top" aria-label="Koto, на главную"><img class="mark" src="assets/koto-brandmark.png" alt="" width="41" height="41"><span><strong>Koto</strong><small>SLIPCAST-DEV</small></span></a>
-    <nav aria-label="Основная навигация"><a href="#features">Возможности</a><a href="#privacy">Приватность</a><a href="{{links.installation}}">Установка</a></nav>
-    <div class="nav-right"><a href="{{links.repository}}">GitHub ↗</a><a class="btn small" href="{{links.download}}">Скачать для Mac <span>↓</span></a></div>
+    <a class="brand" href="#top" aria-label="{{t.home}}"><img class="mark" src="{{asset_prefix}}assets/koto-brandmark.png" alt="" width="41" height="41"><span><strong>Koto</strong><small>SLIPCAST-DEV</small></span></a>
+    <nav aria-label="{{t.nav}}"><a href="#features">{{t.features}}</a><a href="#privacy">{{t.privacy}}</a><a href="{{links.installation}}">{{t.installation}}</a></nav>
+    <div class="nav-right"><a href="{{links.repository}}">GitHub ↗</a><a class="language-switch" href="{{switch_url}}" hreflang="{{other_language}}" lang="{{other_language}}" aria-label="{{t.switch_label}}"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg><span>{{t.switch_name}}</span></a></div>
   </header>
   <main id="content">
     <section class="hero" aria-labelledby="hero-heading">
-      <span class="eyebrow"><span class="dot"></span> Создан для macOS · Apple Silicon</span>
-      <h1 id="hero-heading">Переводите.<br>Оставайтесь <em>в потоке.</em></h1>
-      <p>Текст, выделение и область экрана —<br>в одном нативном приложении.</p>
-      <div class="actions"><a class="btn" href="{{links.download}}">Скачать для Mac <span>↓</span></a><a class="btn secondary" href="{{links.repository}}">Открыть GitHub <span>↗</span></a></div>
+      <span class="eyebrow"><span class="dot"></span> {{t.eyebrow}}</span>
+      <h1 id="hero-heading">{{t.headline}}<br>{{t.headline_next}} <em>{{t.headline_accent}}</em></h1>
+      <p>{{t.intro}}<br>{{t.intro_next}}</p>
+      <div class="actions"><a class="btn" href="{{links.download}}">{{t.download}} <span>↓</span></a><a class="btn secondary" href="{{links.repository}}">{{t.github}} <span>↗</span></a></div>
       <span class="meta">{{version}} &nbsp;·&nbsp; {{platform}} &nbsp;·&nbsp; Apple Silicon</span>
     </section>
-    <section class="demo-wrap" aria-label="Демонстрация интерфейса переводчика">
+    <section class="demo-wrap" aria-label="{{t.demo_label}}">
       <div class="demo">
-        <div class="demo-top"><div class="demo-title"><img class="mark mini" src="assets/koto-brandmark.png" alt="" width="25" height="25"> Перевод текста</div><span class="preview">ДЕМОНСТРАЦИЯ</span></div>
-        <div class="engines"><span class="engine active">Apple Translation</span><span class="engine">Qwen · локально</span></div>
-        <div class="languages"><span>Английский <span class="chevron">⌄</span></span><span class="swap" aria-hidden="true">⇄</span><span class="target">Русский <span class="chevron">⌄</span></span></div>
-        <div class="panels"><div class="panel source"><span class="label">ОРИГИНАЛ</span><p class="sample" lang="en">Good ideas deserve <br>to be understood.</p><div class="panel-tools" aria-hidden="true">⌫</div></div><div class="panel"><span class="label">ПЕРЕВОД</span><p class="sample">Хорошие идеи заслуживают <br>того, чтобы их понимали.</p><div class="panel-tools" aria-hidden="true">♬ &nbsp; ▢</div></div></div>
-        <div class="demo-bottom"><p>Пример интерфейса приложения</p><span class="demo-button">Перевести <span aria-hidden="true">↵</span></span></div>
+        <div class="demo-top"><div class="demo-title"><img class="mark mini" src="{{asset_prefix}}assets/koto-brandmark.png" alt="" width="25" height="25"> {{t.text_translation}}</div><span class="preview">{{t.preview}}</span></div>
+        <div class="engines"><span class="engine active">Apple Translation</span><span class="engine">{{t.qwen}}</span></div>
+        <div class="languages"><span>{{t.english}} <span class="chevron">⌄</span></span><span class="swap" aria-hidden="true">⇄</span><span class="target">{{t.russian}} <span class="chevron">⌄</span></span></div>
+        <div class="panels"><div class="panel source"><span class="label">{{t.original}}</span><p class="sample" lang="en">Good ideas deserve <br>to be understood.</p><div class="panel-tools" aria-hidden="true">⌫</div></div><div class="panel"><span class="label">{{t.translation}}</span><p class="sample" lang="ru">Хорошие идеи заслуживают <br>того, чтобы их понимали.</p><div class="panel-tools" aria-hidden="true">♬ &nbsp; ▢</div></div></div>
+        <div class="demo-bottom"><p>{{t.demo_caption}}</p><span class="demo-button">{{t.translate}} <span aria-hidden="true">↵</span></span></div>
       </div>
-      <div class="shortcuts"><span>Выделение <kbd>⌃⌥⌘T</kbd></span><span>Область экрана <kbd>⌃⌥⌘R</kbd></span><span>Live <kbd>⌃⌥⌘L</kbd></span></div>
+      <div class="shortcuts"><span>{{t.selection}} <kbd>⌃⌥⌘T</kbd></span><span>{{t.screen}} <kbd>⌃⌥⌘R</kbd></span><span>Live <kbd>⌃⌥⌘L</kbd></span></div>
     </section>
-    <section class="section" id="features"><div class="section-heading"><div><div class="overline">ПЕРЕВОД РЯДОМ</div><h2>Лови смысл. Не тормози.</h2></div><p>В привычном ритме вашего Mac.</p></div>
-      <div class="cards"><article class="card"><div class="icon" aria-hidden="true">⌗</div><h3>Текст откуда угодно</h3><p>Выделите текст в приложении или захватите область экрана. Koto распознает и переведёт.</p><a class="card-link" href="{{links.features}}">Выделение и OCR &nbsp;↗</a></article><article class="card"><div class="icon" aria-hidden="true">⌘</div><h3>Локальные движки</h3><p>Системный Apple Translation и опциональная Qwen. Выбирайте подходящий способ перевода.</p><a class="card-link" href="{{links.models}}">О движках и моделях &nbsp;↗</a></article><article class="card"><div class="icon" aria-hidden="true">◎</div><h3>Перевод в Chrome</h3><p>Выделения и видимые фрагменты страниц — через расширение и приложение на вашем Mac.</p><a class="card-link" href="{{links.extension_download}}">Скачать расширение &nbsp;↓</a></article></div>
+    <section class="section" id="features"><div class="section-heading"><div><div class="overline">{{t.overline}}</div><h2>{{t.section_title}}</h2></div><p>{{t.section_caption}}</p></div>
+      <div class="cards"><article class="card"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 3H4a1 1 0 0 0-1 1v4m13-5h4a1 1 0 0 1 1 1v4M3 16v4a1 1 0 0 0 1 1h4m8 0h4a1 1 0 0 0 1-1v-4M8 8h8m-4 0v8m-3 0h6"/></svg></div><h3>{{t.capture_title}}</h3><p>{{t.capture_body}}</p><a class="card-link" href="{{links.features}}">{{t.capture_link}} &nbsp;↗</a></article><article class="card"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4m6-4v4M9 18v4m6-4v4M2 9h4m-4 6h4M18 9h4m-4 6h4"/><rect x="10" y="10" width="4" height="4" rx=".5"/></svg></div><h3>{{t.engine_title}}</h3><p>{{t.engine_body}}</p><a class="card-link" href="{{links.models}}">{{t.engine_link}} &nbsp;↗</a></article><article class="card"><div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 8h8M8.5 14l-4-7M14 15.5l-4 5.3"/></svg></div><h3>{{t.chrome_title}}</h3><p>{{t.chrome_body}}</p><a class="card-link" href="{{links.extension_download}}">{{t.chrome_link}} &nbsp;↓</a></article></div>
     </section>
-    <section class="privacy" id="privacy" aria-labelledby="privacy-heading"><div class="privacy-left"><span class="shield" aria-hidden="true">◇</span><div><h2 id="privacy-heading">Ваш текст — под вашим контролем.</h2><p>Облачный перевод включается отдельно. Память по умолчанию выключена.</p></div></div><a href="{{links.privacy}}">О приватности ↗</a></section>
-    <p class="alpha" id="installation"><span aria-hidden="true">ⓘ</span><span><b>Alpha preview.</b> Без notarization Apple: macOS может блокировать запуск. Некоторые сценарии ещё проходят проверку. <a href="{{links.installation}}">Инструкция по установке ↗</a></span></p>
+    <section class="privacy" id="privacy" aria-labelledby="privacy-heading"><div class="privacy-left"><span class="shield"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6l8-3Z"/><rect x="9" y="11" width="6" height="5" rx="1"/><path d="M10 11V9a2 2 0 0 1 4 0v2"/></svg></span><div><h2 id="privacy-heading">{{t.privacy_title}}</h2><p>{{t.privacy_body}}</p></div></div><a href="{{links.privacy}}">{{t.privacy_link}} ↗</a></section>
+    <p class="alpha" id="installation"><span aria-hidden="true">ⓘ</span><span><b>Alpha preview.</b> {{t.alpha}} <a href="{{links.installation}}">{{t.install_link}} ↗</a></span></p>
   </main>
-  <footer><div class="footer-brand"><b>Koto</b><span>© {{copyright_year}} Slipcast-Dev</span></div><div class="footer-links"><a href="{{links.documentation}}">Документация</a><a href="{{links.releases}}">Релизы</a><a href="{{links.license}}">MIT License</a></div></footer>
-  <div class="concept">Сайт приложения Koto · Демонстрация перевода статическая</div>
+  <footer><div class="footer-brand"><b>Koto</b><span>© {{copyright_year}} Slipcast-Dev</span></div><div class="footer-links"><a href="{{links.documentation}}">{{t.documentation}}</a><a href="{{links.releases}}">{{t.releases}}</a><a href="{{links.license}}">MIT License</a></div></footer>
+  <div class="concept">{{t.concept}}</div>
 </body>
 </html>
