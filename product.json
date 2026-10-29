@@ -12,6 +12,8 @@
     "documentation": "https://github.com/Slipcast-dev/translator-Koto/blob/main/README.md",
     "license": "https://github.com/Slipcast-dev/translator-Koto/blob/main/LICENSE",
     "releases": "https://github.com/Slipcast-dev/translator-Koto/releases",
-    "repository": "https://github.com/Slipcast-dev/translator-Koto"
+    "repository": "https://github.com/Slipcast-dev/translator-Koto",
+    "download": "https://github.com/Slipcast-dev/translator-Koto/releases/download/v0.1.0-alpha.14/Koto-0.1.0-14-arm64-preview-ci.dmg",
+    "extension_download": "https://github.com/Slipcast-dev/translator-Koto/releases/download/v0.1.0-alpha.14/Koto-Chrome-0.1.4.zip"
   }
 }
