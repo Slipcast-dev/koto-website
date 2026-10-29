@@ -757,3 +757,54 @@ section[id] {
     white-space:nowrap;
   }
 }
+
+/* Переключатель языка повторяет форму кнопок и остаётся видимым на телефоне. */
+.language-switch {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  min-height:44px;
+  padding:10px 14px;
+  border:1px solid #dcd9d0;
+  border-radius:10px;
+  background:transparent;
+  font-size:13px;
+  font-weight:550;
+  white-space:nowrap;
+}
+.language-switch:hover {
+  background:#f0ece4;
+  border-color:#c9c4b9;
+}
+.language-switch svg,.icon svg,.shield svg {
+  display:block;
+  width:21px;
+  height:21px;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.6;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+.shield {
+  display:block;
+  flex-shrink:0;
+}
+.shield svg {
+  width:28px;
+  height:28px;
+}
+.card {
+  display:flex;
+  flex-direction:column;
+}
+.card-link {
+  margin-top:auto;
+  padding-top:12px;
+}
+@media(max-width:760px) {
+  .language-switch {
+    padding:9px 12px;
+  }
+}
