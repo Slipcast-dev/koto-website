@@ -2,11 +2,11 @@
 
 # Website verification
 
-Updated: 30 October 2026.
+Updated: 2 November 2026.
 
 ## Verified sources
 
-The website tree and sources, app release list, README.en.md, INSTALLATION.en.md and PRIVACY.en.md were read through GitHub API. Published alpha.14, its DMG and Chrome 0.1.4 ZIP, and the presence of English installation, models and privacy documentation were confirmed. The original Koto brandmark is preserved. Checksums and app functionality were not tested in this task.
+The website tree and sources, app release list, README.en.md, INSTALLATION.en.md and PRIVACY.en.md were read through GitHub API. Published alpha.15, its DMG and Chrome 0.1.4 ZIP, and the presence of English installation, models and privacy documentation were confirmed. The original Koto brandmark is preserved. Checksums and app functionality were not tested in this task.
 
 ## Checks performed
 

@@ -87,7 +87,7 @@ Open the [local site](http://localhost:8765/), [Russian](http://localhost:8765/?
 
 ## Product updates and publishing
 
-Verified on 30 October 2026: published prerelease **0.1.0-alpha.14**, extension **Chrome 0.1.4**. Download buttons use the existing DMG and ZIP assets' direct `browser_download_url` values. The Releases link opens the release list. The site does not use `/releases/latest` for alpha builds.
+Verified on 2 November 2026: published prerelease **0.1.0-alpha.15**, extension **Chrome 0.1.4**. Download buttons use the existing DMG and ZIP assets' direct `browser_download_url` values. The Releases link opens the release list. The site does not use `/releases/latest` for alpha builds.
 
 For a new release:
 1. Check GitHub Releases assets and the app documentation's requirements.
