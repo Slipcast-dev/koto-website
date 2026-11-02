@@ -1,7 +1,7 @@
 [Русский](README.md) | [**English**](README.en.md)
 
 <p align="center">
-  <a href="https://slipcast-dev.github.io/koto-website/en/?lang=en"><img src="docs/assets/repository-banner.en.svg" alt="Koto — bilingual app website: RU and EN, HTML/CSS/JavaScript, GitHub Pages, MIT" width="100%"></a>
+  <a href="https://slipcast-dev.github.io/koto-website/en/?lang=en"><img src="docs/assets/repository-banner.en.svg" alt="Koto — bilingual app website: RU and EN, HTML/CSS/JavaScript, GitHub Pages, all rights reserved" width="100%"></a>
 </p>
 
 <p align="center">
@@ -9,7 +9,7 @@
   <a href="#languages"><img alt="Languages: Russian and English" src="https://img.shields.io/badge/Languages-RU_%2B_EN-80582f?style=flat-square"></a>
   <a href="#architecture"><img alt="HTML / CSS / JavaScript" src="https://img.shields.io/badge/Stack-HTML_%2F_CSS_%2F_JS-80582f?style=flat-square"></a>
   <a href="#build-and-checks"><img alt="Python 3.10+" src="https://img.shields.io/badge/Python-3.10%2B-80582f?style=flat-square&amp;logo=python&amp;logoColor=white"></a>
-  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-80582f?style=flat-square"></a>
+  <a href="LICENSE"><img alt="All rights reserved" src="https://img.shields.io/badge/License-All%20rights%20reserved-80582f?style=flat-square"></a>
 </p>
 
 <p align="center">
@@ -64,7 +64,7 @@ The translator interface is a fixed preview. Apple Translation, Qwen, OCR and sh
 | `screenshots/` | Historical screenshots of the previous Russian site; see its README |
 | `VERIFICATION.md`, `VERIFICATION.en.md` | Current verification reports |
 | `docs/assets/repository-banner.ru.svg`, `docs/assets/repository-banner.en.svg` | Informational README banners |
-| `LICENSE` | MIT, © 2026 Slipcast-Dev |
+| `LICENSE` | Koto proprietary license, © 2026 Slipcast-Dev |
 
 ## Build and checks
 
@@ -102,4 +102,4 @@ Download URLs are pinned to a release and do not update automatically. For a new
 
 Apple Silicon, macOS 26+. The alpha is signed ad hoc without Apple Developer ID/notarization: macOS may block launch. App documentation records release checks on macOS 27.2; macOS 26, extended Live use and some external integrations still need acceptance testing. This repository does not establish app functionality.
 
-Before publishing visual changes, check both languages at 360, 390, 768, 1024 and 1440 px, keyboard focus and links. See the [report](VERIFICATION.en.md) for checks actually performed. Preserve the copyright and MIT notice when redistributing.
+Before publishing visual changes, check both languages at 360, 390, 768, 1024 and 1440 px, keyboard focus and links. See the [report](VERIFICATION.en.md) for checks actually performed. Preserve the copyright and the notice from LICENSE; redistribution without the author's consent is not allowed.

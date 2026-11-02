@@ -50,5 +50,6 @@
   "install_link": "Installation guide",
   "documentation": "Documentation",
   "releases": "Releases",
-  "concept": "Koto app website · Translation preview is static"
+  "concept": "Koto app website · Translation preview is static",
+  "license": "License"
 }
