@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0-alpha.18",
+  "version": "1.0.0",
   "platform": "macOS 26+",
   "copyright_year": 2026,
   "verified_on": "2026-11-09",
@@ -13,8 +13,8 @@
     "license": "https://github.com/Slipcast-dev/translator-Koto/blob/main/LICENSE",
     "releases": "https://github.com/Slipcast-dev/translator-Koto/releases",
     "repository": "https://github.com/Slipcast-dev/translator-Koto",
-    "download": "https://github.com/Slipcast-dev/translator-Koto/releases/download/v0.1.0-alpha.18/Koto-0.1.0-18-arm64-preview-ci.dmg",
-    "extension_download": "https://github.com/Slipcast-dev/translator-Koto/releases/download/v0.1.0-alpha.18/Koto-Chrome-0.1.4.zip"
+    "download": "https://github.com/Slipcast-dev/translator-Koto/releases/download/v1.0.0/Koto-1.0.0-20-arm64.dmg",
+    "extension_download": "https://github.com/Slipcast-dev/translator-Koto/releases/download/v1.0.0/Koto-Chrome-0.1.4.zip"
   },
   "english_links": {
     "installation": "https://github.com/Slipcast-dev/translator-Koto/blob/main/Docs/INSTALLATION.en.md",
