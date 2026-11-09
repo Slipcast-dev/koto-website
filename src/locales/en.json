@@ -1,7 +1,7 @@
 {
   "title": "Koto — native translator for macOS",
   "og_title": "Koto — translate and stay in the flow",
-  "description": "Koto by Slipcast-Dev: translate text, selections and screen regions on Mac. Apple Translation, optional Qwen and a Chrome extension. Download the alpha for Apple Silicon.",
+  "description": "Koto by Slipcast-Dev: translate text, selections and screen regions on Mac. Apple Translation, optional Qwen and a Chrome extension. Download for Apple Silicon.",
   "og_description": "Text, selections and screen regions in one native Mac app.",
   "skip": "Skip to content",
   "home": "Koto, home",
@@ -46,7 +46,8 @@
   "privacy_title": "Your text stays under your control.",
   "privacy_body": "Cloud translation is enabled separately. Memory is off by default.",
   "privacy_link": "About privacy",
-  "alpha": "Without Apple notarization: macOS may block the app from opening. Some workflows are still being tested.",
+  "install_note": "Installation.",
+  "alpha": "Without Apple notarization: macOS may block the app from opening.",
   "install_link": "Installation guide",
   "documentation": "Documentation",
   "releases": "Releases",

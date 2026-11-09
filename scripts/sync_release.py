@@ -24,7 +24,7 @@ def latest_release() -> dict:
 def main() -> None:
     release = latest_release()
     tag = release["tag_name"]
-    if not re.fullmatch(r"v\d+\.\d+\.\d+-alpha\.\d+", tag):
+    if not re.fullmatch(r"v\d+\.\d+\.\d+(?:-[A-Za-z]+\.\d+)?", tag):
         raise RuntimeError(f"Неожиданный тег: {tag}")
     assets = {asset["name"]: asset["browser_download_url"] for asset in release["assets"]}
     dmg = next((url for name, url in assets.items() if name.endswith(".dmg") and "arm64" in name), None)

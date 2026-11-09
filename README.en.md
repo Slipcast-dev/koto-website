@@ -87,7 +87,7 @@ Open the [local site](http://localhost:8765/), [Russian](http://localhost:8765/?
 
 ## Product updates and publishing
 
-Verified on 2 November 2026: published prerelease **0.1.0-alpha.15**, extension **Chrome 0.1.4**. Download buttons use the existing DMG and ZIP assets' direct `browser_download_url` values. The Releases link opens the release list. The site does not use `/releases/latest` for alpha builds.
+Verified on 2 November 2026: published release **1.0.0**, extension **Chrome 0.1.4**. Download buttons use the existing DMG and ZIP assets' direct `browser_download_url` values. The Releases link opens the release list. The version is taken from the latest release automatically.
 
 For a new release:
 1. Check GitHub Releases assets and the app documentation's requirements.
@@ -100,6 +100,6 @@ Download URLs are pinned to a release and do not update automatically. For a new
 
 ## Product limitations
 
-Apple Silicon, macOS 26+. The alpha is signed ad hoc without Apple Developer ID/notarization: macOS may block launch. App documentation records release checks on macOS 27.2; macOS 26, extended Live use and some external integrations still need acceptance testing. This repository does not establish app functionality.
+Apple Silicon, macOS 26+. The app is signed ad hoc without Apple Developer ID/notarization: macOS may block launch. App documentation records release checks on macOS 27.2; macOS 26, extended Live use and some external integrations still need acceptance testing. This repository does not establish app functionality.
 
 Before publishing visual changes, check both languages at 360, 390, 768, 1024 and 1440 px, keyboard focus and links. See the [report](VERIFICATION.en.md) for checks actually performed. Preserve the copyright and the notice from LICENSE; redistribution without the author's consent is not allowed.
